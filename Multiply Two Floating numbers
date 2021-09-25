@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+// Java Program to Multiply Two Floating-Point Numbers
+
+class assgn {
+    public static void main(String[] args) 
+    {
+        // Taking user input
+        Scanner sc=new Scanner(System.in);
+        float num1 = sc.nextFloat(); // user give the 1st value
+        float num2 = sc.nextFloat(); // user give the 2nd value
+
+        //// to store the multiplied value
+        float num3 = num1 * num2;
+        System.out.print(num3);
+    }
+}
