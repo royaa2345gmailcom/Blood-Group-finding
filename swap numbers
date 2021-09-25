@@ -1,0 +1,22 @@
+import java.util.*;
+
+class swp 
+{
+	static void swap(int m, int n)
+    {
+        // Swapping the values
+        int temp = m;
+        m = n;
+        n = temp;
+        System.out.println("Value of m is " + m
+                           + " and Value of n is " + n);
+    }
+ 
+    // Main driver code
+    public static void main(String[] args)
+    {
+        // Calling above function to
+        // reverse the numbers
+        swap(5,6);
+    }
+}
